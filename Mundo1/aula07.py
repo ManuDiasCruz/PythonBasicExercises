@@ -1,0 +1,8 @@
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+print('A soma entre {} e {} é {}, o produto é {}, a divisão é {:.2f}'.format(n1, n2, n1 + n2, n1 * n2, n1 / n2))
+print('Outros resultados entre {} e {} são:'.format(n1, n2), end='      ')
+print('- Divisão inteira: {}'.format(n1 // n2))
+print('{}- Resto da divisão inteira: {}'.format(' ' * 40, n1 % n2))
+print('{}- Potência: {}'.format(' ' * 40, n1 ** n2))
+print('{}- Raiz: {:.2f}'.format(' ' * 40, n1 ** (1 / n2)))
